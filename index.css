@@ -1,0 +1,854 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.header{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 20px;
+    height: 40px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.search-box-container{
+    width: 200px;
+    height: 100%;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    outline: none;
+    border: 0;
+    padding-left: 20px;
+}
+
+.search-bar button img{
+    height: 10px;
+    background: transparent;
+    outline: none;
+    background-color: none;
+    padding: 3px;
+    
+}
+
+.search-bar button img:hover{
+    cursor: pointer;
+}
+
+.search-bar button{
+    width: auto;
+    border: none;
+    background-color: transparent;
+}
+
+::placeholder{
+    color: gray;
+}
+
+.nav-container{
+    display: flex;
+    flex: 1;
+    align-items:center;
+    /* border: 1px solid green; */
+    justify-content: right;
+}
+
+.nav{
+    list-style:none;
+    display: flex;
+}
+
+.nav li{
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.nav li:hover{
+    color:#F7AC19;
+    cursor: pointer;
+}
+
+.nav li:last-child{
+    margin-right: 0;
+}
+
+.cover{
+    height: 800px;
+    width: 100%;
+    background-image: url("https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/e56a1c2f634f59a7a6e43f7c/pexels-photo-9392381.jpeg");
+    border: 1px solid black;
+    margin-top: -100px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.headline{
+    width: 60%;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin-left: 20%;
+    margin-top: -600px;
+}
+
+.headline p{
+    font-size: 60px;
+    color: #F7AC19;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.container-BIF{
+    width: 60%;
+    height: 230px;
+    /* border: 1px solid red; */
+    margin-left: 20%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    margin-top: 150px;
+}
+
+.box{
+    width: 345px;
+    height: 220px;
+    background-color: rgba(100,100,100, 0.5);
+    display: flex;
+    margin-right: 30px;
+
+}
+
+.box3{
+    margin-right: 0;
+}
+
+.text-container{
+    width: 60%;
+    height: 100%;
+    border: px solid purple;
+    padding: 10px;
+}
+
+.text-container button{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid #F7AC19;
+    font-size: 16px;
+
+}
+
+.text-container button:hover{
+    border: none;
+    cursor: pointer;
+}
+
+.text-container p{
+    text-align: left;
+    padding-left: 0px;
+    
+}
+
+.text-container h3,p,button{
+    color: white;
+}
+
+.text-container h3{
+    padding: 20px 0px;
+}
+.logo-container{
+    flex:1;
+    height: 50%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container i{
+    scale: 2;
+    color: white;
+}
+
+.sec1{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.sec1-left{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    padding-bottom: 0px;
+    background-image: url("https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/f55e72a6610f572cb31a47fa/pexels-photo-6474449.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sec1-right{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-bottom: 10px; */
+}
+
+.sec1-left p{
+    font-size: 14px;
+
+}
+.sec1-right-top{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec1-right-bottom{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 10px;
+    margin: 10px 15px 0px 15px;   
+    background-color: blanchedalmond;
+
+    
+
+}
+
+.sec1-left h3{
+    margin-top: 150px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+.sec1-right-top h2{
+    text-align: center;
+    padding: 15px;
+
+}
+
+.sec1-right-top p{
+    margin-top: 15px;
+    font-size: 14px;
+    color: black;
+    padding-left: 15px;
+}
+
+.sec1-right-top h2{
+    font-size: 30px;
+
+
+}
+
+.sec1-right-bottom p{
+
+    padding: 15px 0px;
+    font-size: 14px;
+    color: black;
+}
+
+.sec1-right-bottom button{
+    background-color: #F7AC19;
+    width: 100px;
+    height: 35px;
+    font-size: 20px;
+    border: none;
+    /* padding: 15px; */
+}
+
+.sec1-right-bottom button:hover{
+    cursor: pointer;
+}
+
+.sec1-shape1{
+    width: 80px;
+    height: 8px;
+    background-color: #F7AC19;
+    
+}
+
+.sec2{
+    width: 100%;
+    height: auto;
+    background-color: rgb(206, 205, 205);
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.sec2-body{
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.sec2-left{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+    padding: 15px;
+    padding-left: 0px;
+    overflow: hidden;
+}
+
+.sec2-right{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+    padding: 15px;
+    padding-right: 0px;
+   
+    overflow: hidden;
+}
+
+.sec2-left-top{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+}
+
+.sec2-left-bottom{
+    width: 266px;
+    height: 220px;
+    /* border: 1px solid blue; */
+    background-image: url("https://assets.nicepagecdn.com/11a8ddce/1229629/images/jhjh-min.jpg");
+    background-size: cover;
+    overflow: hidden;
+    padding-right: 15px;
+    margin-top: 15px;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+
+.sec2-left-top h3{
+    text-align: left;
+}
+
+.sec2-left-top p{
+    color: black;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.sec2-right-bottom ul{
+    font-size: 14px;
+    list-style:disc;
+    padding-left: 20px;
+
+}
+
+.sec2-right-top{
+    width: 360px;
+    height: 220px;
+    /* border: 1px solid purple; */
+    background-image: url("https://assets.nicepagecdn.com/11a8ddce/1229629/images/empty-floor-front-modern-building_1127-3154.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.sec2-right-bottom{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    margin-top: 15px;
+}
+/* Section 3 styls------------------------------------- */
+.sec3{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    background-color:rgb(206, 205, 205);
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+.sec3-body{
+    width: 60%;
+    height: 100%;
+    margin-left: 20%;
+    /* border: 1px solid black; */
+}
+
+.sec3-body h3{
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.sec3-body p{
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+}
+
+.sec3-box-container{
+    width: 60%;
+    height:300px;
+    /* border: 1px solid red; */
+    margin-left: 20%;
+    margin-top: 10px;
+}
+
+.sec3-box{
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid black; */
+}
+
+.sec3-box-container{
+    display: flex;
+    justify-content: center;
+}
+
+.sec3-box{
+    margin-right: 10px;
+}
+
+.sec3-box3, .sec3-box6{
+    margin-right: 0px;
+}
+
+.sec3-box1, .sec3-box3{
+    background-color: #F7AC19;
+}
+
+.sec3-box5{
+    background-color: white;
+}
+
+.sec3-box2{
+    background-image: url("https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/c1d380300c5153ab8cd2d608/worker-with-hard-hat-hammer-building-house_23-2148748857.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.sec3-box4{
+    background-image: url("https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/5a08eeeb06d15aaa84bc7d79/construction-worker-sanding-down-wood-piece_23-2148748861.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.sec3-box6{
+    background-image: url("https:////images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/2f7cb96f03e15d41903a1787/carpenter-man-working-wood_23-2148748789.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.sec3-box-container h2, .sec3-box-container p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.sec3-box5 h2,.sec3-box5 p{
+    color: black;
+}
+
+.banner{
+    margin: 60px 0px;
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("//images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/71745c0836905d50808faa4e/fdrt.jpg");
+    /* filter: grayscale(100%); */
+    filter: brightness(100%);
+}
+
+
+.banner-box{
+    width: 120px;
+    height: 120px;
+    /* border: 1px solid black; */
+    margin-right: 50px;
+
+}
+
+.banner-box4{
+    margin-right: 0px;
+}
+
+.banner-box-logocontainer{
+    width: 100%;
+    height: 30%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner i{
+    scale: 1.3;
+    color: #F7AC19;
+}
+
+.banner-box-textcontainer{
+    width: 100%;
+    height: 70%;
+}
+
+.banner-box-textcontainer h1,h4{
+    text-align: center;
+    color: white;
+
+}
+/* Section 4 styles----------- */
+
+.sec4-titles{
+    width: 60%;
+    margin-left: 20%;
+    height: 40px;
+    display: flex;
+    margin-bottom: 15px;
+}
+.sec4-title-container{
+    width:33.33%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sec4-title-container:hover{
+    background-color: #F7AC19;
+}
+.sec4-title-container h4:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.sec4-para{
+    width: 60%;
+    margin-left: 20%;
+    
+}
+
+.sec4-para p{
+    text-align: justify;
+    color:black;
+    font-size: 14px;
+
+}
+
+.sec4 h4{
+    color: black;
+    flex: 1;
+    padding: 10px;
+}
+
+/* Section 5 styling */
+.sec5{
+    width: 60%;
+    margin-left: 20%;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+}
+
+.sec5-body{
+    width: 60%;
+    height: 400px;
+    margin-left: 20%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.sec5 h2,p{
+    text-align: center;
+    color: black;
+}
+.sec5 p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.sec5-box1{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid black; */
+    margin-right: 10px;
+}
+
+.sec5-box2{
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid black; */
+    background-image: url("https://assets.nicepagecdn.com/11a8ddce/1229629/images/pexels-photo-3760529.jpeg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.sec5-box1-top{
+    width: 100%;
+    height: 30%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec5-box1-top1{
+    background-color: #FCDDA1;
+}
+
+.sec5-box1-top2{
+    background-color: #F7AC19;
+}
+
+.sec5-box1-bottom{
+    width: 100%;
+    height: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec5-box1-bottom1{
+    background-color: #FEFAF3;
+}
+
+.sec5-box1-bottom ul{
+    text-align: center;
+    list-style: none;
+    margin: 15px 0px;
+    font-size: 14px;
+}
+
+.button-buynow{
+    width: 120px;
+    height: 30px;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.button-buynow1{
+    background-color: #FCDDA1; 
+}
+
+.button-buynow2{
+    background-color: #F7AC19; 
+    color: white;
+}
+
+.button-buynow1:hover{
+    background-color: #fabd45; 
+    cursor: pointer;
+}
+
+.button-buynow2:hover{
+    background-color: #a87510; 
+    cursor: pointer;
+}
+/* section 6 styling -------------------------------*/
+.sec6{
+    width: 100%;
+    height: 450px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("//images03.nicepagecdn.com/c461c07a441a5d220e8feb1a/8bc12c671b9d563f8ec408d8/pexels-photo-5990678.jpeg");
+    background-position:bottom ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.sec6 h3,p{
+    text-align: center;
+    color: black;
+}
+
+.sec6 h3{
+    margin-top: 30px;
+}
+.sec6 h4{
+    color: black;
+    font-size: 12px;
+    font-style: normal;
+}
+.sec6 p{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    
+}
+
+.sec6-box-container{
+    width: 60%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.sec6-box{
+    width:25%;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    
+
+}
+
+.sec6-box-last{
+    margin-right: 0px;
+}
+
+.sec6-pic-container{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin: 20px 0px;
+    background-position: center;
+    background-size: cover;
+}
+
+.sec6-pic-container1{
+    background-image: url("https://images03.nicepagecdn.com/c461c07a441a5d220e8feb1a/403d472a87e555e68834a6f2/low-angle-plain-concrete-structure-city-with-copy-space_23-2148814201.jpg");
+}
+
+.sec6-pic-container2{
+    background-image: url("https://images03.nicepagecdn.com/c461c07a441a5d220e8feb1a/ce5afd0f2a5f5048a72e94df/low-angle-building-city_23-2148814160.jpg");
+
+}
+
+.sec6-pic-container3{
+    background-image: url("//images03.nicepagecdn.com/c461c07a441a5d220e8feb1a/03978994a9cf5ec8b64195f2/plain-concrete-structure-city-with-copy-space_23-2148814198.jpg");
+}
+
+.sec6-pic-container4{
+    background-image: url("https://images03.nicepagecdn.com/c461c07a441a5d220e8feb1a/6b42a580ae8d57cbae739cc6/5da03891-cde7-5ff9-6ffe-2bdac41249d0.jpg?version=");
+}
+
+
+.button-viewmore{
+    width: 120px;
+    height: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+}
+
+
+.button-viewmore:hover{
+    cursor: pointer;
+    border: none;
+}
+
+/* section 8 styling -------------------------------*/
+
+.sec8-box-container{
+    width: 50%;
+    height: 150px;
+    margin-left: 25%;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    display: flex;
+
+}
+
+.sec8-box{
+    width: 33.33%;
+    height:150px;
+    margin-right:20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.sec8-box i{
+    margin-bottom: 20px;
+    margin-top: 40px;
+    /* border: 1px solid black; */
+}
+
+
+.sec8-box-last{
+    margin-right: 0;
+}
+
+.sec8-box i{
+    scale: 2.2;
+}
+
+
+.sec8-para{
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+}
+/* footer styling -------------------------------*/
+.footer{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.footer p{
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
